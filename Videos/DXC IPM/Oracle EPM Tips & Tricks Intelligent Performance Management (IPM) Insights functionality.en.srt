@@ -1,0 +1,1048 @@
+﻿1
+00:00:05,380 --> 00:00:06,720
+[Music]
+
+2
+00:00:06,720 --> 00:00:08,720
+hi everyone my name's debbie king and
+
+3
+00:00:08,720 --> 00:00:10,800
+here with me today is gary westcott and
+
+4
+00:00:10,800 --> 00:00:12,639
+steve hichman and we're all really
+
+5
+00:00:12,639 --> 00:00:15,599
+excited to bring you a taste of the new
+
+6
+00:00:15,599 --> 00:00:17,680
+insights functionality that's within the
+
+7
+00:00:17,680 --> 00:00:19,680
+intelligent performance management
+
+8
+00:00:19,680 --> 00:00:21,199
+oracle solution
+
+9
+00:00:21,199 --> 00:00:22,800
+this has been actually delivered to you
+
+10
+00:00:22,800 --> 00:00:24,800
+in the november release for all of our
+
+11
+00:00:24,800 --> 00:00:26,560
+epm enterprise
+
+12
+00:00:26,560 --> 00:00:28,080
+solution
+
+13
+00:00:28,080 --> 00:00:30,000
+clients
+
+14
+00:00:30,000 --> 00:00:32,000
+so before we jump into the tool we're
+
+15
+00:00:32,000 --> 00:00:34,160
+going to just talk talk through the
+
+16
+00:00:34,160 --> 00:00:36,719
+evolution of planning and you may your
+
+17
+00:00:36,719 --> 00:00:38,960
+organization may be at any stage on this
+
+18
+00:00:38,960 --> 00:00:40,480
+evolutionary
+
+19
+00:00:40,480 --> 00:00:42,879
+line but a lot will have started with
+
+20
+00:00:42,879 --> 00:00:45,120
+and possibly still use manual or excel
+
+21
+00:00:45,120 --> 00:00:47,680
+methods to do your planning
+
+22
+00:00:47,680 --> 00:00:49,280
+that's been improved over time with
+
+23
+00:00:49,280 --> 00:00:50,960
+driver-based and historical trend
+
+24
+00:00:50,960 --> 00:00:54,320
+analysis to try and ac more accurately
+
+25
+00:00:54,320 --> 00:00:57,120
+get to where your forecast needs to be
+
+26
+00:00:57,120 --> 00:00:58,800
+but that can still take time with a lot
+
+27
+00:00:58,800 --> 00:01:00,239
+of data particularly if you're still
+
+28
+00:01:00,239 --> 00:01:03,199
+using manual methods to do that
+
+29
+00:01:03,199 --> 00:01:05,438
+auto predict is the functionality where
+
+30
+00:01:05,438 --> 00:01:07,439
+you can look at historical information
+
+31
+00:01:07,439 --> 00:01:09,119
+to predict where you are in the future
+
+32
+00:01:09,119 --> 00:01:11,760
+which has been evolving um really
+
+33
+00:01:11,760 --> 00:01:13,920
+quickly but where we're at today and
+
+34
+00:01:13,920 --> 00:01:16,000
+what we want to jump into
+
+35
+00:01:16,000 --> 00:01:18,159
+is where machine learning prediction
+
+36
+00:01:18,159 --> 00:01:20,320
+is is going to help us out to get to
+
+37
+00:01:20,320 --> 00:01:23,360
+that nirvana that we often talk about of
+
+38
+00:01:23,360 --> 00:01:25,920
+a zero touch forecast but at the very
+
+39
+00:01:25,920 --> 00:01:27,759
+least to get a light touch and more
+
+40
+00:01:27,759 --> 00:01:30,000
+accurate and fast forecasting and
+
+41
+00:01:30,000 --> 00:01:31,040
+budgeting
+
+42
+00:01:31,040 --> 00:01:34,799
+outcome for your organization
+
+43
+00:01:35,439 --> 00:01:36,159
+so
+
+44
+00:01:36,159 --> 00:01:40,000
+just in line with that evolution what
+
+45
+00:01:40,000 --> 00:01:41,600
+technology providers have been trying to
+
+46
+00:01:41,600 --> 00:01:44,399
+do is actually originally give
+
+47
+00:01:44,399 --> 00:01:45,920
+give the accountants give the people
+
+48
+00:01:45,920 --> 00:01:49,200
+more time to analyze the data and
+
+49
+00:01:49,200 --> 00:01:51,360
+i mean that's been great and it has had
+
+50
+00:01:51,360 --> 00:01:54,240
+a lot of benefit but as you can see just
+
+51
+00:01:54,240 --> 00:01:56,000
+from this very simple
+
+52
+00:01:56,000 --> 00:01:58,079
+um chart of account
+
+53
+00:01:58,079 --> 00:02:00,159
+combination here so think about 200
+
+54
+00:02:00,159 --> 00:02:02,159
+accounts 100 entities
+
+55
+00:02:02,159 --> 00:02:04,479
+50 products 100 customers it's 100
+
+56
+00:02:04,479 --> 00:02:06,399
+million data combinations that you would
+
+57
+00:02:06,399 --> 00:02:08,878
+have to have a look at to find where
+
+58
+00:02:08,878 --> 00:02:11,760
+variances might be and
+
+59
+00:02:11,760 --> 00:02:14,480
+as highlighted here if you have um
+
+60
+00:02:14,480 --> 00:02:16,720
+something materially over in sydney or
+
+61
+00:02:16,720 --> 00:02:18,959
+and under in melbourne it'll be needle
+
+62
+00:02:18,959 --> 00:02:21,120
+in a haystack stuff trying to get down
+
+63
+00:02:21,120 --> 00:02:23,680
+to that variance and often you'll just
+
+64
+00:02:23,680 --> 00:02:25,760
+skip over it and look at things at a
+
+65
+00:02:25,760 --> 00:02:28,000
+higher level so
+
+66
+00:02:28,000 --> 00:02:28,959
+machine
+
+67
+00:02:28,959 --> 00:02:30,879
+learning this particular tool is going
+
+68
+00:02:30,879 --> 00:02:33,599
+to help us out by providing those that
+
+69
+00:02:33,599 --> 00:02:35,280
+analysis and then we can look at the
+
+70
+00:02:35,280 --> 00:02:37,510
+analysis in a bit more detail
+
+71
+00:02:37,510 --> 00:02:39,519
+[Music]
+
+72
+00:02:39,519 --> 00:02:41,920
+the insights functionality is built on
+
+73
+00:02:41,920 --> 00:02:43,760
+the cornerstone of
+
+74
+00:02:43,760 --> 00:02:46,160
+is predictive planning is cornerstone of
+
+75
+00:02:46,160 --> 00:02:48,560
+this functionality so that's the
+
+76
+00:02:48,560 --> 00:02:51,519
+foundation of how this inside stuff's
+
+77
+00:02:51,519 --> 00:02:53,120
+been working
+
+78
+00:02:53,120 --> 00:02:55,440
+and you actually have had
+
+79
+00:02:55,440 --> 00:02:57,519
+the if with the planning tool um
+
+80
+00:02:57,519 --> 00:02:59,840
+predictive planning has been available
+
+81
+00:02:59,840 --> 00:03:01,519
+for some time
+
+82
+00:03:01,519 --> 00:03:02,640
+and
+
+83
+00:03:02,640 --> 00:03:04,879
+i guess insights just takes that to the
+
+84
+00:03:04,879 --> 00:03:07,040
+to the next level where you
+
+85
+00:03:07,040 --> 00:03:09,840
+are shown the inside behind some of that
+
+86
+00:03:09,840 --> 00:03:12,720
+prediction so
+
+87
+00:03:12,720 --> 00:03:14,159
+before we
+
+88
+00:03:14,159 --> 00:03:15,920
+actually jump in and have a look at the
+
+89
+00:03:15,920 --> 00:03:17,680
+tool
+
+90
+00:03:17,680 --> 00:03:20,560
+in play so gary's standing by there's
+
+91
+00:03:20,560 --> 00:03:22,560
+just a few things you need to know this
+
+92
+00:03:22,560 --> 00:03:24,080
+was
+
+93
+00:03:24,080 --> 00:03:25,440
+as i said before delivered in the
+
+94
+00:03:25,440 --> 00:03:27,280
+november release so ready at your
+
+95
+00:03:27,280 --> 00:03:29,680
+fingertips it is for epm enterprise
+
+96
+00:03:29,680 --> 00:03:32,400
+customers only and you do need the red
+
+97
+00:03:32,400 --> 00:03:33,440
+wood theme
+
+98
+00:03:33,440 --> 00:03:34,959
+required and i think we've said that and
+
+99
+00:03:34,959 --> 00:03:37,040
+steve online has said that at quite a
+
+100
+00:03:37,040 --> 00:03:38,159
+few of these
+
+101
+00:03:38,159 --> 00:03:39,440
+um
+
+102
+00:03:39,440 --> 00:03:41,920
+information sessions where you get more
+
+103
+00:03:41,920 --> 00:03:43,680
+functionality by enabling the redwood
+
+104
+00:03:43,680 --> 00:03:46,640
+theme and it's necessary for ipm
+
+105
+00:03:46,640 --> 00:03:48,879
+the navigation flows very cute little
+
+106
+00:03:48,879 --> 00:03:51,440
+artificial intelligent robot um to guide
+
+107
+00:03:51,440 --> 00:03:53,840
+you through to where insights will live
+
+108
+00:03:53,840 --> 00:03:55,599
+but i think importantly and you'll see
+
+109
+00:03:55,599 --> 00:03:56,879
+it in the tool
+
+110
+00:03:56,879 --> 00:04:00,959
+plain english user-friendly um end user
+
+111
+00:04:00,959 --> 00:04:04,239
+focused insights to then have a look at
+
+112
+00:04:04,239 --> 00:04:05,120
+and
+
+113
+00:04:05,120 --> 00:04:06,560
+you can determine whether or not you
+
+114
+00:04:06,560 --> 00:04:08,879
+want to use that prediction
+
+115
+00:04:08,879 --> 00:04:11,920
+very nice clean um graphical
+
+116
+00:04:11,920 --> 00:04:14,560
+user interface as well so without me
+
+117
+00:04:14,560 --> 00:04:16,160
+just talking about it i'm going to hand
+
+118
+00:04:16,160 --> 00:04:18,560
+over to gary to show you the tool in
+
+119
+00:04:18,560 --> 00:04:21,680
+action so thanks gary thanks debbie
+
+120
+00:04:21,680 --> 00:04:23,759
+so we're open at the home screen and to
+
+121
+00:04:23,759 --> 00:04:27,120
+get to the insights you click on the ipm
+
+122
+00:04:27,120 --> 00:04:29,520
+navigation flow
+
+123
+00:04:29,520 --> 00:04:31,199
+and go to insights
+
+124
+00:04:31,199 --> 00:04:33,199
+and so there are a number of insights
+
+125
+00:04:33,199 --> 00:04:34,960
+that come up when you go to the inside
+
+126
+00:04:34,960 --> 00:04:37,919
+screen and as you can see we've got
+
+127
+00:04:37,919 --> 00:04:39,919
+there's multiple types of insights and
+
+128
+00:04:39,919 --> 00:04:42,000
+but and that's going to grow but we've
+
+129
+00:04:42,000 --> 00:04:43,840
+got i'm only showing two of them and the
+
+130
+00:04:43,840 --> 00:04:45,520
+two i'm showing you guys the forecast
+
+131
+00:04:45,520 --> 00:04:47,680
+variants and buyers which is just
+
+132
+00:04:47,680 --> 00:04:49,360
+relates to the material differences in
+
+133
+00:04:49,360 --> 00:04:51,520
+actual versus forecast but the one i'm
+
+134
+00:04:51,520 --> 00:04:53,360
+really going to concentrate on is the
+
+135
+00:04:53,360 --> 00:04:56,639
+prediction insight which so here you can
+
+136
+00:04:56,639 --> 00:04:58,080
+see we've got two prediction insights
+
+137
+00:04:58,080 --> 00:05:00,560
+one for sydney one for melbourne
+
+138
+00:05:00,560 --> 00:05:01,840
+melbourne is
+
+139
+00:05:01,840 --> 00:05:04,000
+um lower than the forecast and sydney is
+
+140
+00:05:04,000 --> 00:05:05,840
+higher than the forecast so as debbie
+
+141
+00:05:05,840 --> 00:05:07,280
+said at a higher level that they're
+
+142
+00:05:07,280 --> 00:05:08,639
+going to negate each other out so you
+
+143
+00:05:08,639 --> 00:05:10,080
+may not actually see that if you're just
+
+144
+00:05:10,080 --> 00:05:12,800
+doing your analysis at a um aggregate
+
+145
+00:05:12,800 --> 00:05:13,919
+level
+
+146
+00:05:13,919 --> 00:05:15,440
+so i'll go and click into the sydney
+
+147
+00:05:15,440 --> 00:05:17,440
+insight
+
+148
+00:05:17,440 --> 00:05:19,280
+okay so for the sydney insight you can
+
+149
+00:05:19,280 --> 00:05:21,520
+see that there are two lines here one
+
+150
+00:05:21,520 --> 00:05:23,120
+sub-base prediction and the other one's
+
+151
+00:05:23,120 --> 00:05:25,600
+are forecast the base prediction is the
+
+152
+00:05:25,600 --> 00:05:27,120
+actual machine learning what it's
+
+153
+00:05:27,120 --> 00:05:28,720
+actually predicting the forecast should
+
+154
+00:05:28,720 --> 00:05:31,039
+be and as you can see it's got some
+
+155
+00:05:31,039 --> 00:05:32,880
+seasonality in it
+
+156
+00:05:32,880 --> 00:05:35,199
+which our forecast which we use during
+
+157
+00:05:35,199 --> 00:05:37,120
+doing our driver models or inputting
+
+158
+00:05:37,120 --> 00:05:38,880
+hasn't got so
+
+159
+00:05:38,880 --> 00:05:39,600
+it
+
+160
+00:05:39,600 --> 00:05:41,360
+has actually done a good job of
+
+161
+00:05:41,360 --> 00:05:43,600
+forecasting so you can actually see the
+
+162
+00:05:43,600 --> 00:05:45,280
+dollar amounts down here as well so you
+
+163
+00:05:45,280 --> 00:05:48,639
+can say okay you've forecasted 400k flat
+
+164
+00:05:48,639 --> 00:05:52,320
+but the actual base prediction is using
+
+165
+00:05:52,320 --> 00:05:54,000
+has come up with a different amount so
+
+166
+00:05:54,000 --> 00:05:56,560
+it is about actually 26 higher than what
+
+167
+00:05:56,560 --> 00:05:58,560
+you forecast
+
+168
+00:05:58,560 --> 00:06:00,000
+you can actually
+
+169
+00:06:00,000 --> 00:06:02,000
+go over and update this forecast if you
+
+170
+00:06:02,000 --> 00:06:03,360
+wanted to
+
+171
+00:06:03,360 --> 00:06:05,039
+so you can add comments when you do it
+
+172
+00:06:05,039 --> 00:06:07,039
+you can dismiss the inside if you don't
+
+173
+00:06:07,039 --> 00:06:09,840
+think it's materially different or you
+
+174
+00:06:09,840 --> 00:06:12,319
+and or you can open as an ad hoc form
+
+175
+00:06:12,319 --> 00:06:14,479
+you can also do an override once you've
+
+176
+00:06:14,479 --> 00:06:16,880
+updated the forecast and to say okay you
+
+177
+00:06:16,880 --> 00:06:18,240
+still want to have a little bit of a
+
+178
+00:06:18,240 --> 00:06:19,759
+difference there so you can actually do
+
+179
+00:06:19,759 --> 00:06:21,199
+an override so i'm just going to update
+
+180
+00:06:21,199 --> 00:06:23,280
+the forecast
+
+181
+00:06:23,280 --> 00:06:25,520
+and oh you can actually write a comment
+
+182
+00:06:25,520 --> 00:06:28,479
+there but i won't
+
+183
+00:06:29,520 --> 00:06:31,120
+and now you can see there's only one
+
+184
+00:06:31,120 --> 00:06:33,120
+line that's because the forecast and the
+
+185
+00:06:33,120 --> 00:06:34,639
+base prediction have now become the same
+
+186
+00:06:34,639 --> 00:06:37,360
+so you've updated your forecast
+
+187
+00:06:37,360 --> 00:06:39,840
+below so now you've got the machine
+
+188
+00:06:39,840 --> 00:06:40,960
+learning
+
+189
+00:06:40,960 --> 00:06:42,720
+so how do you configure that you go up
+
+190
+00:06:42,720 --> 00:06:46,479
+to the top screen to do the configure
+
+191
+00:06:46,639 --> 00:06:48,319
+and i'll click on the one i've called
+
+192
+00:06:48,319 --> 00:06:50,720
+predict
+
+193
+00:06:53,599 --> 00:06:55,759
+and see this one i've chosen for auto
+
+194
+00:06:55,759 --> 00:06:58,720
+predict and prediction insights
+
+195
+00:06:58,720 --> 00:07:02,400
+and to define the slice you can
+
+196
+00:07:02,400 --> 00:07:04,720
+go into the define size so this shows
+
+197
+00:07:04,720 --> 00:07:07,120
+that you're using actuals and you can
+
+198
+00:07:07,120 --> 00:07:08,720
+say how many historical years do you
+
+199
+00:07:08,720 --> 00:07:10,800
+want to use you can use
+
+200
+00:07:10,800 --> 00:07:13,440
+four if you want to five three depending
+
+201
+00:07:13,440 --> 00:07:15,360
+on how much many actuals you've got and
+
+202
+00:07:15,360 --> 00:07:16,960
+the other side just shows the forecast
+
+203
+00:07:16,960 --> 00:07:20,318
+data and what you're going to predict
+
+204
+00:07:21,680 --> 00:07:24,240
+so you go to configure
+
+205
+00:07:24,240 --> 00:07:26,080
+what we're doing is saying okay you
+
+206
+00:07:26,080 --> 00:07:28,080
+should come up as an insight if the
+
+207
+00:07:28,080 --> 00:07:31,360
+threshold of variance is more than 12
+
+208
+00:07:31,360 --> 00:07:34,479
+if it's not then it doesn't come up so
+
+209
+00:07:34,479 --> 00:07:36,319
+you can also have advanced insights for
+
+210
+00:07:36,319 --> 00:07:37,840
+the data scientists out there which
+
+211
+00:07:37,840 --> 00:07:39,520
+shows actual different metrics that you
+
+212
+00:07:39,520 --> 00:07:41,759
+can use to calculate that
+
+213
+00:07:41,759 --> 00:07:43,360
+but i'm just sticking to the simple
+
+214
+00:07:43,360 --> 00:07:46,479
+basic 12 percent
+
+215
+00:07:46,720 --> 00:07:48,560
+next you go to settings
+
+216
+00:07:48,560 --> 00:07:51,280
+so the settings one shows the magnitude
+
+217
+00:07:51,280 --> 00:07:53,599
+of the threshold so if you're saying
+
+218
+00:07:53,599 --> 00:07:55,599
+okay there's a 30 increase you're going
+
+219
+00:07:55,599 --> 00:07:57,360
+to put that as high if you've got a 10
+
+220
+00:07:57,360 --> 00:07:59,199
+percent increase that's low so that just
+
+221
+00:07:59,199 --> 00:08:01,280
+shows
+
+222
+00:08:01,280 --> 00:08:02,960
+what which ones you can going to sit at
+
+223
+00:08:02,960 --> 00:08:04,400
+higher so you can actually concentrate
+
+224
+00:08:04,400 --> 00:08:06,720
+on them more than the lower ones
+
+225
+00:08:06,720 --> 00:08:08,319
+so that's how you how you set up the
+
+226
+00:08:08,319 --> 00:08:11,319
+insight
+
+227
+00:08:12,560 --> 00:08:15,280
+you can you can also at the same time
+
+228
+00:08:15,280 --> 00:08:16,800
+oracle has released
+
+229
+00:08:16,800 --> 00:08:18,720
+machine learning models
+
+230
+00:08:18,720 --> 00:08:19,919
+so
+
+231
+00:08:19,919 --> 00:08:21,680
+this allows organizations to bring their
+
+232
+00:08:21,680 --> 00:08:23,840
+own model into
+
+233
+00:08:23,840 --> 00:08:25,440
+the system using their own machine
+
+234
+00:08:25,440 --> 00:08:26,879
+learning model so and you can just
+
+235
+00:08:26,879 --> 00:08:30,400
+import that in there as well
+
+236
+00:08:30,560 --> 00:08:32,000
+we'll hand over to steve to wrap it up
+
+237
+00:08:32,000 --> 00:08:34,000
+from here
+
+238
+00:08:34,000 --> 00:08:36,640
+thank you gary so steve speaking um
+
+239
+00:08:36,640 --> 00:08:38,559
+we we're pretty excited about this
+
+240
+00:08:38,559 --> 00:08:40,159
+functionality which has sort of been in
+
+241
+00:08:40,159 --> 00:08:43,120
+the making um for a little while there's
+
+242
+00:08:43,120 --> 00:08:44,640
+been a number of kind of foundational
+
+243
+00:08:44,640 --> 00:08:47,040
+blocks and this is really starting to
+
+244
+00:08:47,040 --> 00:08:47,839
+show
+
+245
+00:08:47,839 --> 00:08:49,360
+sort of a significant peak into the
+
+246
+00:08:49,360 --> 00:08:51,600
+future so it's good already
+
+247
+00:08:51,600 --> 00:08:53,680
+there's more to come
+
+248
+00:08:53,680 --> 00:08:56,640
+as you kind of hopefully saw very easy
+
+249
+00:08:56,640 --> 00:08:58,560
+to use very much targeted at the
+
+250
+00:08:58,560 --> 00:09:00,480
+business unit user
+
+251
+00:09:00,480 --> 00:09:03,120
+trying to simplify and
+
+252
+00:09:03,120 --> 00:09:04,959
+add efficiency
+
+253
+00:09:04,959 --> 00:09:07,360
+if you would like to know more there's a
+
+254
+00:09:07,360 --> 00:09:09,360
+couple of customer connect sessions
+
+255
+00:09:09,360 --> 00:09:11,680
+highlighted there both of them are
+
+256
+00:09:11,680 --> 00:09:14,399
+approximately an hour of time including
+
+257
+00:09:14,399 --> 00:09:16,080
+a bit more on the bring your own machine
+
+258
+00:09:16,080 --> 00:09:18,080
+learning that gary very briefly touched
+
+259
+00:09:18,080 --> 00:09:18,800
+on
+
+260
+00:09:18,800 --> 00:09:21,839
+and or feel free to reach out to us for
+
+261
+00:09:21,839 --> 00:09:25,500
+more information thank you very much
+
+262
+00:09:25,500 --> 00:09:32,490
+[Music]
+
